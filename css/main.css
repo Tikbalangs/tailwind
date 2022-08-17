@@ -1,0 +1,251 @@
+/*@tailwind base;*/
+
+btnCustom{
+  margin-left:auto;
+  margin-right:auto;
+  height:50px;
+  width:500px;
+}
+
+.menu{
+  /*@apply md:block md:w-[100%] md:h-[50px] md:bg-[#2b2b2b] block w-[100%] h-[auto] bg-cyan-600 text-center*/
+}
+
+.products{
+  box-sizing:border-box;
+  width:100%;
+  --tw-bg-opacity:1;
+  background-color:rgb(8 145 178 / var(--tw-bg-opacity));
+  padding:2rem;
+}
+
+.m-0{
+  margin:0px;
+}
+
+.mx-auto{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.mt-3{
+  margin-top:0.75rem;
+}
+
+.box-border{
+  box-sizing:border-box;
+}
+
+.flex{
+  display:flex;
+}
+
+.h-\[300px\]{
+  height:300px;
+}
+
+.h-\[100px\]{
+  height:100px;
+}
+
+.w-\[100\%\]{
+  width:100%;
+}
+
+.w-1\/2{
+  width:50%;
+}
+
+.w-2\/5{
+  width:40%;
+}
+
+.w-3\/5{
+  width:60%;
+}
+
+.w-\[200px\]{
+  width:200px;
+}
+
+.list-none{
+  list-style-type:none;
+}
+
+.rounded-lg{
+  border-radius:0.5rem;
+}
+
+.rounded-full{
+  border-radius:9999px;
+}
+
+.bg-slate-100{
+  --tw-bg-opacity:1;
+  background-color:rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-800{
+  --tw-bg-opacity:1;
+  background-color:rgb(21 94 117 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-600{
+  --tw-bg-opacity:1;
+  background-color:rgb(8 145 178 / var(--tw-bg-opacity));
+}
+
+.p-0{
+  padding:0px;
+}
+
+.p-8{
+  padding:2rem;
+}
+
+.p-4{
+  padding:1rem;
+}
+
+.text-justify{
+  text-align:justify;
+}
+
+.font-sans{
+  font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-lg{
+  font-size:1.125rem;
+  line-height:1.75rem;
+}
+
+.text-white{
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.no-underline{
+  -webkit-text-decoration-line:none;
+          text-decoration-line:none;
+}
+
+.shadow-lg{
+  --tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-black{
+  --tw-shadow-color:#000;
+  --tw-shadow:var(--tw-shadow-colored);
+}
+
+.transition-all{
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms;
+}
+
+.duration-300{
+  transition-duration:300ms;
+}
+
+.ease-linear{
+  transition-timing-function:linear;
+}
+
+div.menu>nav{
+  height:auto;
+  width:100%;
+}
+
+@media (min-width: 768px){
+  div.menu>nav{
+    height:40px;
+    width:100%;
+    --tw-bg-opacity:1;
+    background-color:rgb(171 171 171 / var(--tw-bg-opacity));
+  }
+}
+
+div.menu>nav>ul{
+  list-style-type:none;
+}
+
+@media (min-width: 768px){
+  div.menu>nav>ul{
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    height:40px;
+    width:80%;
+    justify-content:center;
+    --tw-bg-opacity:1;
+    background-color:rgb(8 145 178 / var(--tw-bg-opacity));
+  }
+}
+
+div.menu>nav>ul>li{
+  text-align:center;
+}
+
+@media (min-width: 768px){
+  div.menu>nav>ul>li{
+    margin-left:5px;
+    width:auto;
+    --tw-bg-opacity:1;
+    background-color:rgb(128 0 128 / var(--tw-bg-opacity));
+  }
+}
+
+div.menu>nav>ul>li>a{
+  display:block;
+  width:100%;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height:40px;
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
+  -webkit-text-decoration-line:none;
+          text-decoration-line:none;
+}
+
+div.menu>nav>ul>li>a:hover{
+  --tw-bg-opacity:1;
+  background-color:rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+section.products{
+  height:calc(100vh - 40px);
+}
+
+section.products>div.itemProduct{
+  margin-left:auto;
+  margin-right:auto;
+  height:300px;
+  width:30%;
+  --tw-bg-opacity:1;
+  background-color:rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-cyan-800:hover{
+  --tw-bg-opacity:1;
+  background-color:rgb(21 94 117 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover{
+  --tw-bg-opacity:1;
+  background-color:rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-200:hover{
+  --tw-text-opacity:1;
+  color:rgb(229 231 235 / var(--tw-text-opacity));
+}

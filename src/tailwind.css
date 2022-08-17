@@ -1,0 +1,40 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    btnCustom{
+        @apply w-[500px] h-[50px] mx-auto
+    }
+    .menu{
+        /*@apply md:block md:w-[100%] md:h-[50px] md:bg-[#2b2b2b] block w-[100%] h-[auto] bg-cyan-600 text-center*/
+    }
+    .products{
+        @apply w-[100%] p-8 box-border bg-cyan-600
+    }
+}
+@layer utilities{
+    div.menu>nav{
+        @apply md:w-[100%] md:h-[40px] md:bg-[#ababab] w-[100%] h-[auto]
+    }
+    div.menu>nav>ul{
+        @apply md:flex md:w-[80%] md:h-[40px] md:bg-cyan-600 md:mx-auto md:justify-center list-none
+    }
+    div.menu>nav>ul>li{
+        @apply md:w-[auto] md:bg-[purple] md:ml-[5px] text-center
+    }
+    div.menu>nav>ul>li>a{
+        @apply block w-[100%] px-[10px] text-white no-underline leading-[40px] font-sans hover:bg-slate-100
+    }
+    section.products{
+        height:calc(100vh - 40px);
+    }
+    section.products>div.itemProduct{
+        @apply w-[30%] h-[300px] bg-slate-100 mx-auto relative overflow-hidden
+    }
+    section.products>div.itemProduct>div{
+        @apply w-[100%] h[100%] bg-[pink] absolute left-[-100%] transition-all duration-300 ease-linear
+    }
+    section.products>div.itemProduct:hover>div{
+
+    }
+}
